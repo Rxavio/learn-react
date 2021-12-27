@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import './App.css'
- import Greet from './components/Greet'
- import Welcome from './components/Welcome'
+//  import Greet from './components/Greet'
+//  import Welcome from './components/Welcome'
+ import Message from './components/Message'
 //import Hello from './components/Hello'
 class App extends Component {
   render() {
     return (
       <div className="App">
         <br />
-        
+{/*         
         <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
         </Greet>
@@ -21,7 +22,9 @@ class App extends Component {
 
         <Welcome name="Bruce" heroName="Batman" />
         <Welcome name="Clark" heroName="Superman" />
-        <Welcome name="Diana" heroName="Wonder Woman" />
+        <Welcome name="Diana" heroName="Wonder Woman" /> */}
+
+        <Message message='Welcome Visitor' />
 
         {/* <Greet />
         <Welcome />
