@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
  import Greet from './components/Greet'
-// import Welcome from './components/Welcome'
-import Hello from './components/Hello'
+ import Welcome from './components/Welcome'
+//import Hello from './components/Hello'
 class App extends Component {
   render() {
     return (
@@ -18,6 +18,10 @@ class App extends Component {
         </Greet>
 
         <Greet name="Diana" heroName="Wonder Woman" />
+
+        <Welcome name="Bruce" heroName="Batman" />
+        <Welcome name="Clark" heroName="Superman" />
+        <Welcome name="Diana" heroName="Wonder Woman" />
 
         {/* <Greet />
         <Welcome />
