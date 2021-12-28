@@ -4,13 +4,15 @@ import './App.css'
 //  import Welcome from './components/Welcome'
 //  import Message from './components/Message'
 //import Hello from './components/Hello'
-import Count from './components/Counter'
+// import Count from './components/Counter'
+import FunctionClick from './components/FunctionClick'
 class App extends Component {
   render() {
     return (
       <div className="App">
         <br />
-        <Count />
+        <FunctionClick />
+        {/* <Count /> */}
 {/*         
         <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
